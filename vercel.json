@@ -3,10 +3,5 @@
   "framework": "vite",
   "installCommand": "npm run install:all",
   "buildCommand": "npm run vercel-build",
-  "outputDirectory": "frontend/dist",
-  "functions": {
-    "api/**/*.js": {
-      "runtime": "nodejs22.x"
-    }
-  }
+  "outputDirectory": "frontend/dist"
 }
